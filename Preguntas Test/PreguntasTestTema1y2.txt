@@ -1,0 +1,37 @@
++<pregunta>
+ +  <enunciado>¿Que es una granja web?.</enunciado>
+ +  <opcionA>Es un conjunto de aplicacones capaces de atender las peticiones de un cliente y devolverle una respuesta en concordancia</opcionA>
+ +  <opcionB>Es un ordenador  que está al “servicio” de otras máquinas, ordenadores o personas llamadas clientes y que le suministran a estos, todo tipo de información.</opcionB>
+ +  <opcionC>Es un conjunto de servidores dedicados a servir contenido web a los usuarios finales. </opcionC>
+ +  <opcionD>Ninguna de las anteriores</opcionD>
+ +  <solucion>C</solucion>
+ +</pregunta>
+ +
+ +<pregunta>
+ +  <enunciado>En cualquier sitio web hay que controlar los posibles problemas de :</enunciado>
+ +  <opcionA>Arquitectura del sistema. </opcionA>
+ +  <opcionB>La disponibilidad.</opcionB>
+ +  <opcionC>La carga del sistema.</opcionC>
+ +  <opcionD>Las tres son correctas.</opcionD>
+ +  <solucion>D</solucion>
+ +</pregunta>
+ +
+ +
+ +<pregunta>
+ +  <enunciado>En cuestion de la disponibilidad, cuanto mas alta es en un sitio web :</enunciado>
+ +  <opcionA>Más probable a no sufrir caídas no-programadas </opcionA>
+ +  <opcionB>Más probable a sufrir caídas no-programadas</opcionB>
+ +  <opcionC>Más probable a no sufrir caídas programadas</opcionC>
+ +  <opcionD>Más probable a sufrir caídas programadas</opcionD>
+ +  <solucion>A</solucion>
+ +</pregunta>
+ +
+ +
+ +<pregunta>
+ +  <enunciado>¿Cómo podemos calcular la disponibilidad de un sistema?</enunciado>
+ +  <opcionA>As = Ac1 + (Ac1* Ac2 * Ac3 * ... Acn).</opcionA>
+ +  <opcionB>As = Ac1 * Ac2 * Ac3 * ... Acn.</opcionB>
+ +  <opcionC>As = Ac1 + Ac2 + Ac3 + ... Acn.</opcionC>
+ +  <opcionD>No puede calcularse</opcionD>
+ +  <solucion>B</solucion>
+ +</pregunta>
