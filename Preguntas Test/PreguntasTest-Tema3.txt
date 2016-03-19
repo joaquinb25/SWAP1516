@@ -1,0 +1,19 @@
++<pregunta>
+ +  <enunciado>¿Que es una zona desmilitarizada o DMZ ?.</enunciado>
+ +  <opcionA>Área restringida o aislada, y no controlada.</opcionA>
+ +  <opcionB>Área restringida o aislada, y totalmente controlada.</opcionB>
+ +  <opcionC>Área no restringida, y totalmente controlada. </opcionC>
+ +  <opcionD>Ninguna de las anteriores</opcionD>
+ +  <solucion>B</solucion>
+ +</pregunta>
+ +
+ +<pregunta>
+ +  <enunciado>En una configuración sin DMZ </enunciado>
+ +  <opcionA>Tanto los servidores de la granja web como otras máquinas están conectadas a distintas subredes. </opcionA>
+ +  <opcionB>Solo los servidores de la granja web están conectadas a la misma subred.</opcionB>
+ +  <opcionC>Tanto los servidores de la granja web como otras máquinas están conectadas a la misma subred. </opcionC>
+ +  <opcionD>Ninguna de las anteriores</opcionD>
+ +  <solucion>C</solucion>
+ +</pregunta>
+
+ 
