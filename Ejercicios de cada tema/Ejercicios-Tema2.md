@@ -1,5 +1,5 @@
 
-#EJERCICIOS TEMA 1
+#EJERCICIOS TEMA 2
 
 #Nombre : Joaquin Ballesteros Ortega
 
@@ -42,6 +42,7 @@ Firewall_2= 0.85+(1-0.85)*0.85 = 0.9775
 Firewall_3= 0.9775+(1-0.9775)*0.85 = 0.9966
 
 **Switch**
+
 Switch_2= 0.99+(1-0.99)*0.99= 0.9999
 Switch_3= 0.9999+(1-0.9999)*0.99= 0.999999
 
@@ -66,10 +67,10 @@ As = Web_3*App_3*Db_3*DNS_3*Firewall_3*Switch_3*DC_3*ISP_3 = 0.9908
 
 ###Buscar frameworks y librerías para diferentes lenguajes que permitan hacer aplicaciones altamente disponibles con relativa facilidad. 
 
-Ruby: Lotus, Nyny, Grape, Pakyow, Celluloid.
-PHP : Medoo, Flight, Phpixie, Yii, Codeigniter, Laravel, Phalcon, Kohana.
-Python: Django, Web2py, TurboGears, Webapp2, CubicWeb, Grok, Giotto.
-Javascript: Dojo, EachJS, Echo3, Ember.js, Kendo UI , Pyjamas, Qooxdoo.
+* Ruby: Lotus, Nyny, Grape, Pakyow, Celluloid.
+* PHP : Medoo, Flight, Phpixie, Yii, Codeigniter, Laravel, Phalcon, Kohana.
+* Python: Django, Web2py, TurboGears, Webapp2, CubicWeb, Grok, Giotto.
+* Javascript: Dojo, EachJS, Echo3, Ember.js, Kendo UI , Pyjamas, Qooxdoo.
 
 
 
@@ -88,7 +89,7 @@ Algunas son:
 
 Entre las mas importantes:
 
-Google PageSpeed Insights es una poderosa herramienta de análisis que aumenta el rendimiento de tu sitio web.
+*Google PageSpeed Insights* es una poderosa herramienta de análisis que aumenta el rendimiento de tu sitio web.
 que ofrece Google para optimizar los sitios web. 
 Basta introducir la URL del sitio para que genere un reporte personalizado con un listado de sugerencias (bastante técnicas) para mejorar
 el tiempo de carga en navegadores de escritorio y en dispositivos móviles. Dispone de extensiones para Firefox y Chrome.
@@ -100,39 +101,39 @@ el tiempo de carga en navegadores de escritorio y en dispositivos móviles. Disp
 
 Balanceadores software :
 
-+HAProxy
-+Zen Load Balancer
-+nginx
-+Octopus Load Balancer
-+Apache: mod_proxy_balancer
-+varnish
-+Servitux
+* HAProxy
+* Zen Load Balancer
+* nginx
+* Octopus Load Balancer
+* Apache: mod_proxy_balancer
+* Varnish
+* Servitux
 
 Balanceadores hardware
 
-+Barracuado Load Balancer ADC
-+CoyotePoint Equalizer Appliances
-+Radware AppDirector OnDemand Switch Series
-+Serie BIG-IP de f5.
-+Cisco 
-+AppDirector OnDemand de la compañía Radware.
-LoadMaster 2600
+* Barracuado Load Balancer ADC
+* CoyotePoint Equalizer Appliances
+* Radware AppDirector OnDemand Switch Series
+* Serie BIG-IP de f5.
+* Cisco 
+* AppDirector OnDemand de la compañía Radware.
+* LoadMaster 2600
 
 ####Buscar productos comerciales para servidores de aplicaciones.
 
-+Servidor de aplicaciones Microsoft
-+JBoss
-+JOnAS
-+Oracle WebLogic Server
-+WebSphere Application Server
-+GlassFish Server
+* Servidor de aplicaciones Microsoft
+* JBoss
+* JOnAS
+* Oracle WebLogic Server
+* WebSphere Application Server
+* GlassFish Server
 
 ####Buscar productos comerciales para servidores de almacenamiento.
 
-+Servidor almacenamiento DELL
-+Dell Compellent FS8600
-+HP ConvergedSystem 200-HC StoreVirtual System
-+IBM EXP2500 Storage Enclosure 
+* Servidor almacenamiento DELL
+* Dell Compellent FS8600
+* HP ConvergedSystem 200-HC StoreVirtual System
+* IBM EXP2500 Storage Enclosure 
 
 
 
