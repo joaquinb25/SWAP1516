@@ -88,8 +88,8 @@ Algunas son:
 
 Entre las mas importantes:
 
-*Google PageSpeed Insights* es una poderosa herramienta de análisis que aumenta el rendimiento de tu sitio web.
-Basta introducir la URL del sitio para que genere un reporte personalizado con un listado de sugerencias (bastante técnicas) para mejorar el tiempo de carga en navegadores de escritorio y en dispositivos móviles. Dispone de extensiones para Firefox y Chrome.
+*Google PageSpeed Insights* es una herramienta de análisis que ofrece Google que sirve para aumentar el rendimiento de tu sitio web.
+Basta introducir la URL del sitio para que genere un reporte personalizado con un listado de sugerencias para mejorar el tiempo de carga en navegadores de escritorio y en dispositivos móviles. Dispone de extensiones para Firefox y Chrome.
 
 
 ##Ejercicio T2.4
