@@ -7,7 +7,7 @@
 
 ##Ejercicio T2.1
 
-###Calcular la disponibilidad del sistema si tenemos dos réplicas de cada elemento (en total 3 elementos en cada subsistema)
+###Calcular la disponibilidad del sistema si tenemos dos rÃ©plicas de cada elemento (en total 3 elementos en cada subsistema)
 
 
 En cualquier sistema con N componentes para calcular la disponibilidad del sistema se calcula como:
@@ -64,7 +64,7 @@ As = Web_3*App_3*Db_3*DNS_3*Firewall_3*Switch_3*DC_3*ISP_3 = 0.9908
 
 ##Ejercicio T2.2
 
-###Buscar frameworks y librerías para diferentes lenguajes que permitan hacer aplicaciones altamente disponibles con relativa facilidad. 
+###Buscar frameworks y librerÃ­as para diferentes lenguajes que permitan hacer aplicaciones altamente disponibles con relativa facilidad. 
 
 Ruby: Lotus, Nyny, Grape, Pakyow, Celluloid.
 PHP : Medoo, Flight, Phpixie, Yii, Codeigniter, Laravel, Phalcon, Kohana.
@@ -75,23 +75,23 @@ Javascript: Dojo, EachJS, Echo3, Ember.js, Kendo UI , Pyjamas, Qooxdoo.
 
 ##Ejercicio T2.3
 
-###¿Cómo analizar el nivel de carga de cada uno de los subsistemas en el servidor?
-Buscar herramientas y aprender a usarlas....¡o recordar cómo usarlas!
+###Â¿CÃ³mo analizar el nivel de carga de cada uno de los subsistemas en el servidor?
+Buscar herramientas y aprender a usarlas....Â¡o recordar cÃ³mo usarlas!
 
 Algunas son:
 
-+Pingdom Tools
-+GTmetrix
-+WebPageTest
-+Google Page Speed
-+YSlow
+* Pingdom Tools.
+* GTmetrix.
+* WebPageTest.
+* Google Page Speed.
+* YSlow.
 
 Entre las mas importantes:
 
-Google PageSpeed Insights es una poderosa herramienta de análisis que aumenta el rendimiento de tu sitio web.
+Google PageSpeed Insights es una poderosa herramienta de anÃ¡lisis que aumenta el rendimiento de tu sitio web.
 que ofrece Google para optimizar los sitios web. 
-Basta introducir la URL del sitio para que genere un reporte personalizado con un listado de sugerencias (bastante técnicas) para mejorar
-el tiempo de carga en navegadores de escritorio y en dispositivos móviles. Dispone de extensiones para Firefox y Chrome.
+Basta introducir la URL del sitio para que genere un reporte personalizado con un listado de sugerencias (bastante tÃ©cnicas) para mejorar
+el tiempo de carga en navegadores de escritorio y en dispositivos mÃ³viles. Dispone de extensiones para Firefox y Chrome.
 
 
 ##Ejercicio T2.4
@@ -115,7 +115,7 @@ Balanceadores hardware
 +Radware AppDirector OnDemand Switch Series
 +Serie BIG-IP de f5.
 +Cisco 
-+AppDirector OnDemand de la compañía Radware.
++AppDirector OnDemand de la compaÃ±Ã­a Radware.
 LoadMaster 2600
 
 ####Buscar productos comerciales para servidores de aplicaciones.
