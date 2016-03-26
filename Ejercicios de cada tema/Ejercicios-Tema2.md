@@ -76,8 +76,7 @@ As = Web_3*App_3*Db_3*DNS_3*Firewall_3*Switch_3*DC_3*ISP_3 = 0.9908
 
 ##Ejercicio T2.3
 
-###¿Cómo analizar el nivel de carga de cada uno de los subsistemas en el servidor?
-Buscar herramientas y aprender a usarlas....¡o recordar cómo usarlas!
+###¿Cómo analizar el nivel de carga de cada uno de los subsistemas en el servidor? Buscar herramientas y aprender a usarlas....¡o recordar cómo usarlas!###
 
 Algunas son:
 
