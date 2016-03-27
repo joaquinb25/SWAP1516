@@ -19,11 +19,11 @@ Si lo que queremos es mantener estas rutas tras reiniciar el servidor, añadimos
 ###Buscar con qué órdenes de terminal o herramientas gráficas podemos configurar bajo Windows y bajo Linux el filtrado y bloqueo de paquetes.###
 
 
-En Windows se usa el servicio Enrutamiento y acceso remoto admite el filtrado de paquetes IP, que especifica qué tipo de tráfico se permite entrar y salir del enrutador.
+En Windows se usa el servicio de enrutamiento y acceso remoto que admite el filtrado de paquetes IP, especifica qué tipo de tráfico permite entrar y salir del enrutador.
 La característica de filtrado de paquetes se basa en excepciones. Puede establecer filtros de paquetes por interfaz y configurarlos para
 dejar pasar todo el tráfico excepto los paquetes prohibidos por filtros o descartar todo el tráfico excepto los paquetes permitidos por filtros. 
 
-En Linux la principal orden es  iptables permite crear reglas que analizarán los paquetes de datos que entran,
+En Linux la principal orden es  iptables que permite crear reglas que analizarán los paquetes de datos que entran,
 salen o pasan por nuestra máquina, y en función de las condiciones que establezcamos, tomaremos una decisión que
 normalmente será permitir o denegar que dicho paquete siga su curso.
 
