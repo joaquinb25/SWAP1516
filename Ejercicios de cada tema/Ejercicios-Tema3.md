@@ -5,8 +5,7 @@
 
 ##Ejercicio T3.1
 
-###Buscar con qué órdenes de terminal o herramientas gráficas podemos configurar bajo Windows y bajo Linux 
-el enrutamiento del tráfico de un servidor para pasar el tráfico desde una subred a otra.###
+###Buscar con qué órdenes de terminal o herramientas gráficas podemos configurar bajo Windows y bajo Linux el enrutamiento del tráfico de un servidor para pasar el tráfico desde una subred a otra.
 
 Windows tiene un Servicio de enrutamiento y acceso remoto que se puede agregar al servidor mediante un simple asistente.
 
