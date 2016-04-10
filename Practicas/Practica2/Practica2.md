@@ -25,27 +25,32 @@ Ya hemos visto como copiar un archivo desde un ordenador a otro, pero cuando la 
 
 rsync -avz -e ssh root@192.168.1.10:/var/www/ /var/www/ 
 
-foto rsync m2
-foto rsyn 1
+![M2](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica2/IMG/rsyncm2.png?raw=true)
+
+
+![M1](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica2/IMG/rsyncm1.png?raw=true)
 
 #**Acceso sin contraseña para ssh**
 
 Para no tener que introducir la contraseña del usuario cada vez que queramos hacer una copia de seguridad usaremos autentificación mediante par de claves pública-privada. Primero generamos la clave en el ordenador desde el que realizaremos la conexión, para generar dicha clave usamos ssh-keygen –t dsa, que nos generará una clave DSA. No introducimos ninguna contraseña cuando nos la solicite ya que ese es el objetivo, no tener que introducir contraseña.
 
-foto key m2
+![M2](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica2/IMG/keym2.png?raw=true)
 
 Para hacer la copia de la clave, lo que haremos es copiarla a la máquina principal:
 
 ssh-copy-id -i /root/.ssh/id_dsa.pub root@192.168.1.10
- 
- foto keym2 a m1
+
+![M2aM1](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica2/IMG/key%20m2%20copia%20a%20m1.png?raw=true)
+
 
  Podremos comprobar el funcionamiento de lo que acabamos de hacer si nos conectamos mediante ssh al ordenador principal desde el ordenador secundario y ejecutamos una orden cualquiera, como puede ser uname –a en este caso.
 
- foto ssh a m1 desde m2
+![M1aM2](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica2/IMG/sshh%20a%20m1%20desde%20m2.png?raw=true)
+
 
 #**Programar tareas con crontab**
 
 Por tanto, ya tenemos la orden para actualizar los archivos en nuestro servidor web y el acceso para poder hacerlo automáticamente, con lo que sólo tenemos que modificar el archivo /etc/crontab y añadir una nueva línea con la instrucción que queremos realizar en cada hora en punto, esto es, el rsync, siguiendo el formato adecuado:
 
-foto crontab
+![Crontab](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica2/IMG/crontab.png?raw=true)
+
