@@ -21,15 +21,7 @@ Continuamos la práctica  con la instalacion del comando cURL para comprobar
 que el servidor web está activo.
 
 Una vez que tenemos las máquinas instaladas y los servidores LAMP configurados,
-comprobaremos que Apache está funcionando. Para ello hemos creado un archivo HTML en el directorio /var/www :
-
-<HTML>
-<BODY>
-Esto funciona :)
-</BODY>
-</HTML>
-
-y accederemos a él :  
+comprobaremos que Apache está funcionando. Para ello hemos creado un archivo HTML en el directorio /var/www y accederemos a él :  
 
 ![](
 https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica1/img/curl.png?raw=true)
