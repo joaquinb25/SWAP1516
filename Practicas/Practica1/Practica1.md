@@ -1,6 +1,6 @@
 *Carlos Toledano Delgado - Joaquín Ballesteros Ortega*
 
-#PRÁCTICA 1
+#PRÁCTICA 1 Preparación de las herramientas
 
 En esta práctica hemos instalado las dos máquinas en Linux con su correspondiente configuración
 y al acabar hemos comprobado la versión del servidor ejecutando:
