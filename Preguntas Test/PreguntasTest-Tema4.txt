@@ -1,0 +1,18 @@
+
++<pregunta>
+ +  <enunciado>¿Que es la Virtual IP (VIP)  ?.</enunciado>
+ +  <opcionA>Se trata de estructurar varios cortafuegos de forma balanceada.</opcionA>
+ +  <opcionB>Dirección pública a la que acceden los usuarios cuando piden un servicio al sistema.</opcionB>
+ +  <opcionC>Dirección privada a la que acceden los usuarios cuando piden un servicio al sistema. </opcionC>
+ +  <opcionD>Ninguna de las anteriores</opcionD>
+ +  <solucion>B</solucion>
+ +</pregunta>
+ +
+ +<pregunta>
+ +  <enunciado>GSLB basado en DNS  </enunciado>
+ +  <opcionA>GSLB es complicado de configurar y poner en funcionamiento, ya que la tecnología DNS no se desarrolló para hacer balanceo de carga. </opcionA>
+ +  <opcionB>Una posible solución al problema de tener GSLB basado en DNS es no limpiar la caché del navegador</opcionB>
+ +  <opcionC>GSLB es muy sencillo de configurar y poner en funcionamiento </opcionC>
+ +  <opcionD>Ninguna de las anteriores</opcionD>
+ +  <solucion>A</solucion>
+ +</pregunta>
