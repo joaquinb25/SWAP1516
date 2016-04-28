@@ -75,10 +75,10 @@ y RIPE (www.ripe.net) para Europa, Africa del norte y Rusia).
 Cada una de estas organizaciones mantiene un registro detallado de los grupos o bloques de direcciones IP que se han asignado a los distintos 
 Si juntamos la información de estas cuatro entidades, podemos construir una gran base de datos conteniendo todos los bloques de direcciones IP del 
 mundo asignados a sus respectivos países.
-VENTAJAS: Al tratarse de una base de datos local los sistemas basados en esta técnica obtienen la información en menos de una milésima del tiempo que 
+*VENTAJAS: Al tratarse de una base de datos local los sistemas basados en esta técnica obtienen la información en menos de una milésima del tiempo que 
 insumiría una consulta DNS. Esta técnica permite identificar sin problemas el origen geográfico real de máquinas con las extensiones .com .net .edu y .org 
 (que los sistemas basados en DNS son incapaces de resolver).
-DESVENTAJAS: Las entidades reguladoras asignan nuevas direcciones cada pocos meses, por lo cual la base de datos debe ser actualizada. Por lo tanto un 
+*DESVENTAJAS: Las entidades reguladoras asignan nuevas direcciones cada pocos meses, por lo cual la base de datos debe ser actualizada. Por lo tanto un 
 mecanismo de geotargeting basado en base de datos de IPs requiere un cierto mantenimiento si queremos evitar que quede desactualizado y nos brinde 
 resultados erróneos.
 
