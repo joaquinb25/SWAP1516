@@ -79,6 +79,7 @@ mundo asignados a sus respectivos países.
 1-VENTAJAS: Al tratarse de una base de datos local los sistemas basados en esta técnica obtienen la información en menos de una milésima del tiempo que 
 insumiría una consulta DNS. Esta técnica permite identificar sin problemas el origen geográfico real de máquinas con las extensiones .com .net .edu y .org 
 (que los sistemas basados en DNS son incapaces de resolver).
+
 2- DESVENTAJAS: Las entidades reguladoras asignan nuevas direcciones cada pocos meses, por lo cual la base de datos debe ser actualizada. Por lo tanto un 
 mecanismo de geotargeting basado en base de datos de IPs requiere un cierto mantenimiento si queremos evitar que quede desactualizado y nos brinde 
 resultados erróneos.
