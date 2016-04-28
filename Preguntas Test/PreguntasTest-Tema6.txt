@@ -1,0 +1,18 @@
+
++<pregunta>
+ +  <enunciado>¿ Cual de estas funciones no realiza el cortafuegos ?</enunciado>
+ +  <opcionA>Bloquear y filtrar paquetes </opcionA>
+ +  <opcionB>Detectar y eliminar virus</opcionB>
+ +  <opcionC>Control del tráfico de red a nivel de protocolo de red(TCP o UDP) </opcionC>
+ +  <opcionD>Controlar protocolos de aplicación</opcionD>
+ +  <solucion>B</solucion>
+ +</pregunta>
+ +
+ +<pregunta>
+ +  <enunciado>Como politica de seguridad, ¿Qué se suele utilizar en el proceso de autentificación?  </enunciado>
+ +  <opcionA>Un escáner de retina, huella dactilar o ADN . </opcionA>
+ +  <opcionB>Una clave o PIN</opcionB>
+ +  <opcionC>Una tarjeta física que incluirá la clave </opcionC>
+ +  <opcionD>Todas son correctas</opcionD>
+ +  <solucion>D</solucion>
+ +</pregunta>
