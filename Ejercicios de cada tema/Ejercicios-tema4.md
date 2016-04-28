@@ -95,14 +95,14 @@ El Global Server Load Balancing (GLSB) es popular por su función de recuperaci�
 tráfico para la selección optimizada del lugar. La funcionalidad de GSLB de A10 está disponible en todos los Application Delivery Controller
  y productos de balanceo de carga de Serie AX
 
-*Modos de implantación del GSLB*
+**Modos de implantación del GSLB**
 
 La funcionalidad del GSLB de A10 extiende el balanceo de carga a una escala geográfica global, ofreciendo una elección entre los métodos 
 DNS Proxy y DNS Server. El GSLB de A10 adiciona otro nivel de disponibilidad y desempeño para aplicaciones, con el mínimo de impacto existente
  en la arquitectura DNS, mientras se escoge el método que mejor se encaja en su ambiente.
 
 
-*Fuentes*
+**Fuentes**
 
 http://www.monografias.com/trabajos28/geotargeting-mostrar-contenidos-pais-visitante/geotargeting-mostrar-contenidos-pais-visitante.shtml#a4
 http://www.clm.com.pe/productos/a10/ax-global-server-load-balancing.htm
