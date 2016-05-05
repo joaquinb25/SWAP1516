@@ -1,4 +1,4 @@
-#*Carlos Toledano Delgado - Joaquín Ballesteros Ortega*
+##*Carlos Toledano Delgado - Joaquín Ballesteros Ortega*
 
 #Práctica 3. Balanceo de carga
 
@@ -28,19 +28,23 @@ es 1.1 (proxy_http_version 1.1), y que se elimine la cabecera Connection (proxy_
 
 
 
-![curl](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica3/img/2016-05-05%2011_08_01-Balanceador%20-%20VMware%20Workstation.png?raw=true
-)
+![curl](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica3/img/2016-05-05%2011_08_01-Balanceador%20-%20VMware%20Workstation.png?raw=true)
 
 
 Una vez completada la configuración, vamos a comprobar que las peticiones al servidor están sindiendo balanceadas según el criterio indicado, para ello mediante el navegador curl accederemos al balanceador mediante su dirección IP.
 
-curl
+
+![curl](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica3/img/2.png)
+
+
 
 ##Configurar una máquina e instalarle el haproxy como balanceador de carga
 Instalamos HAProxy sin ninguna complicación usando apt-get. Y procedemos a realizar su configuración en el archivo “/etc/haproxy/haproxy.cfg”. En la directiva frontend http-in, indicamos que se debe escuchar el tráfico del puerto 80 y redirigirlo hacia los servidores finales (default_backend servers). El grupo de servidores servers al que redirigimos el tráfico necesitaremos especificarlo con la directiva backend servers añadiéndole las líneas que representan cada uno de los servidores el primer servidor con el doble de carga (servidor1 192.168.111.128:80 maxconn 32 ) y el segundo servidor con la mitad de carga (servidor2 192.168.111.129:80 maxconn 32 weight 34).
 
-curl
+![curl](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica3/img/3.png)
+
 
 Una vez hecha la configuración, ya podemos comprobar el funcionamiento con curl http://"direccionIP"
 
-curl
+
+![curl](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica3/img/4.png)
