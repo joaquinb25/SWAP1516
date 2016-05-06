@@ -37,14 +37,8 @@ Siendo el mismo caso que antes el tamaño es 200 GB.
 En el RAID5 divide los datos a nivel de bloques, distribuyendo la
 información de paridad entre los discos del conjunto. 
 
-Cada vez que un bloque de datos se escribe en un RAID 5, se
-genera un bloque de paridad dentro de la misma división.
-Si un bloque, o alguna porción de
-un bloque, es escrita en
-una división, el bloque de paridad
-(o una parte del mismo) es
-recalculada y vuelta a escribir. 
-
+Cada vez que un bloque de datos se escribe en un RAID 5, se genera un bloque de paridad dentro de la misma división.
+Si un bloque, o alguna porción de un bloque, es escrita en una división, el bloque de paridad (o una parte del mismo) es recalculada y vuelta a escribir. 
 
 Por lo tanto la unidad RAID sería de 240GB y también quedaria un disco de 120GB como disco de paridad.
 
@@ -55,18 +49,17 @@ Por lo tanto la unidad RAID sería de 240GB y también quedaria un disco de 120G
 
 
 Los sistemas de archivo de red permiten acceder a ficheros remotos como si estuviesen en un medio de almacenamiento local. 
-Gracias al sistema de archivos de red un ordenador cliente puede acceder a sistemas de archivos que exporta el servidor, con independencia del sistema 
-de archivos de disco que se utiliza en el servidor.
+Gracias al sistema de archivos de red un ordenador cliente puede acceder a sistemas de archivos que exporta el servidor, con independencia del sistema de archivos de disco que se utiliza en el servidor.
 
 
 **Algunos sistemas de archivos de red son:**
 
 
-**SMB/CIFS**:Es el sistema nativo de Windows.Permite navegar por los recursos ofrecidos y está orientado al funcionamiento en LAN
-**NFS**:Es el sistema nativo de Unix.No está pensado para navegar por los recursos y funciona en WAN
-**Coda**:El cliente guarda de forma local los ficheros de trabajo, para asegurar la disponibilidad cuando no existe conexión de red
-**Intermezzo**:Inspirado en Coda pero diseñado de nuevo
-**Lustre**:Nuevo desarrollo destinado a supercomputación. Para grandes clusters o procesadores masivamente paralelos (MPP).
+1-**SMB/CIFS**:Es el sistema nativo de Windows.Permite navegar por los recursos ofrecidos y está orientado al funcionamiento en LAN.
+2-**NFS**:Es el sistema nativo de Unix.No está pensado para navegar por los recursos y funciona en WAN.
+3-**Coda**:El cliente guarda de forma local los ficheros de trabajo, para asegurar la disponibilidad cuando no existe conexión de red.
+4-**Intermezzo**:Inspirado en Coda pero diseñado de nuevo.
+5-**Lustre**:Nuevo desarrollo destinado a supercomputación. Para grandes clusters o procesadores masivamente paralelos (MPP).
 
 
 
@@ -85,11 +78,10 @@ El protocolo SMB fue diseñado originalmente por IBM, pero actualmente la versi�
 
 Entre las características del protocolo encontramos:
 
-Permite compartir sistemas de archivos e impresoras
-Tradicionalmente ha utilizado NetBIOS/NetBEUI aunque las versiones nuevas pueden funcionar encima de TCP/IP. Cuando no se utiliza TCP/IP no existe posibilidad de enrutado, de manera que cliente y servidor deben estar en la misma red
-El servicio permite explorar la red para descubrir máquinas y recursos compartidos
-Tradicionalmente se ha utilizado una resolución de nombres WINS, aunque en las versiones nuevas (a partir de Windows 2000) se ha relegado en favor de DNS y Active Directory
-
+- Permite compartir sistemas de archivos e impresoras
+- Tradicionalmente ha utilizado NetBIOS/NetBEUI aunque las versiones nuevas pueden funcionar encima de TCP/IP. Cuando no se utiliza     TCP/IP no existe posibilidad de enrutado, de manera que cliente y servidor deben estar en la misma red.
+- El servicio permite explorar la red para descubrir máquinas y recursos compartidos.
+- Tradicionalmente se ha utilizado una resolución de nombres WINS, aunque en las versiones nuevas (a partir de Windows 2000) se ha relegado en favor de DNS y Active Directory.
 
 
 **Otras opciones: Coda / Intermezzo / Lustre**
