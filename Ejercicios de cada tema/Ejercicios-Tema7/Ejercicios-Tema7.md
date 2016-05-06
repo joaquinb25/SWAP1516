@@ -46,7 +46,7 @@ una división, el bloque de paridad
 recalculada y vuelta a escribir. 
 
 
-Por lo tanto unidad RAID sería de 240GB quedando un disco de 120GB como disco de paridad.
+Por lo tanto la unidad RAID sería de 240GB y también quedaria un disco de 120GB como disco de paridad.
 
 
 
@@ -62,16 +62,16 @@ de archivos de disco que se utiliza en el servidor.
 **Algunos sistemas de archivos de red son:**
 
 
-*SMB/CIFS*:Es el sistema nativo de Windows.Permite navegar por los recursos ofrecidos y está orientado al funcionamiento en LAN
-*NFS*:Es el sistema nativo de Unix.No está pensado para navegar por los recursos y funciona en WAN
-*Coda*:El cliente guarda de forma local los ficheros de trabajo, para asegurar la disponibilidad cuando no existe conexión de red
-*Intermezzo*:Inspirado en Coda pero diseñado de nuevo
-*Lustre*:Nuevo desarrollo destinado a supercomputación. Para grandes clusters o procesadores masivamente paralelos (MPP).
+**SMB/CIFS**:Es el sistema nativo de Windows.Permite navegar por los recursos ofrecidos y está orientado al funcionamiento en LAN
+**NFS**:Es el sistema nativo de Unix.No está pensado para navegar por los recursos y funciona en WAN
+**Coda**:El cliente guarda de forma local los ficheros de trabajo, para asegurar la disponibilidad cuando no existe conexión de red
+**Intermezzo**:Inspirado en Coda pero diseñado de nuevo
+**Lustre**:Nuevo desarrollo destinado a supercomputación. Para grandes clusters o procesadores masivamente paralelos (MPP).
 
 
 
 
-*NFS - Network File System*
+**NFS - Network File System**
 
 NFS permite que un servidor exporte un sistema de ficheros, y uno o varios clientes, lo monten para utilizarlo como un sistema de ficheros local. La comunicación entre el servidor y el cliente se realiza a través de la red, utilizando el protocolo NFS. El sistema de ficheros de disco que utiliza físicamente el servidor es irrelevante para el cliente.
 
@@ -79,7 +79,7 @@ NFS es enrutable, de manera que el servidor y el cliente pueden estar en diferen
 
 
 
-*SMB/CIFS - Server Message Block/Common Internet File System*
+**SMB/CIFS - Server Message Block/Common Internet File System**
 
 El protocolo SMB fue diseñado originalmente por IBM, pero actualmente la versión más extendida del mismo es la implementada por Microsoft en sus sistemas operativos, hoy en día denominada CIFS. En Unix existe el servicio Samba que implementa un servidor y cliente para SMB/CIFS.
 
@@ -92,7 +92,7 @@ Tradicionalmente se ha utilizado una resolución de nombres WINS, aunque en las 
 
 
 
-*Otras opciones: Coda / Intermezzo / Lustre*
+**Otras opciones: Coda / Intermezzo / Lustre**
 
 Los sistemas de ficheros en red Coda e InterMezzo intentan dar soporte a dispositivos móviles que se conectan/desconectan con frecuencia de la red. Para permitir el funcionamiento de los clientes durante las desconexiones de red, estos guardan una copia local (caché) del sistema de archivos remoto. Cuando se restablece la conexión de red, los clientes envian los cambios locales al servidor. En este proceso pueden surgir conflictos (cuando dos o más clientes han hecho cambios locales sobre los mismos datos e intentan actualizar el servidor).
 
@@ -104,6 +104,6 @@ tiene por objetivo conseguir un gran rendimiento al tiempo que resuelve las nece
 ![NFS](https://github.com/joaquinb25/SWAP1516/blob/master/Ejercicios%20de%20cada%20tema/Ejercicios-Tema7/NFS.png)
 
 
-*Fuentes:*
+**Fuentes:**
 
 http://elpuig.xeill.net/Members/vcarceler/c1/didactica/apuntes/ud4/na6
