@@ -55,11 +55,11 @@ Gracias al sistema de archivos de red un ordenador cliente puede acceder a siste
 **Algunos sistemas de archivos de red son:**
 
 
-1- **SMB/CIFS**:Es el sistema nativo de Windows.Permite navegar por los recursos ofrecidos y está orientado al funcionamiento en LAN.
-2- **NFS**:Es el sistema nativo de Unix.No está pensado para navegar por los recursos y funciona en WAN.
-3- **Coda**:El cliente guarda de forma local los ficheros de trabajo, para asegurar la disponibilidad cuando no existe conexión de red.
-4- **Intermezzo**:Inspirado en Coda pero diseñado de nuevo.
-5- **Lustre**:Nuevo desarrollo destinado a supercomputación. Para grandes clusters o procesadores masivamente paralelos (MPP).
+- **SMB/CIFS**:Es el sistema nativo de Windows.Permite navegar por los recursos ofrecidos y está orientado al funcionamiento en LAN.
+- **NFS**:Es el sistema nativo de Unix.No está pensado para navegar por los recursos y funciona en WAN.
+- **Coda**:El cliente guarda de forma local los ficheros de trabajo, para asegurar la disponibilidad cuando no existe conexión de red.
+- **Intermezzo**:Inspirado en Coda pero diseñado de nuevo.
+- **Lustre**:Nuevo desarrollo destinado a supercomputación. Para grandes clusters o procesadores masivamente paralelos (MPP).
 
 
 
