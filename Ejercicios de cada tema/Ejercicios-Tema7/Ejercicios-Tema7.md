@@ -59,7 +59,7 @@ Gracias al sistema de archivos de red un ordenador cliente puede acceder a siste
 de archivos de disco que se utiliza en el servidor.
 
 
-*Algunos sistemas de archivos de red son:*
+**Algunos sistemas de archivos de red son:**
 
 
 *SMB/CIFS*:Es el sistema nativo de Windows.Permite navegar por los recursos ofrecidos y está orientado al funcionamiento en LAN
