@@ -1,4 +1,4 @@
-#Ejercicios Tema 7
+#**Ejercicios Tema 7**
 
 
 #Nombre: Joaquin Ballesteros Ortega
@@ -92,7 +92,7 @@ El sistema de archivos en red Lustre es el nuevo proyecto en el que participan l
 tiene por objetivo conseguir un gran rendimiento al tiempo que resuelve las necesidades de almacenamieno de grandes clusters o máquinas masivamente paralelas.
 
 
-####**Arrancando el servicio NFS desde el shell :**
+####Arrancando el servicio NFS desde el shell :
 
 ![NFS](https://github.com/joaquinb25/SWAP1516/blob/master/Ejercicios%20de%20cada%20tema/Ejercicios-Tema7/NFS.png)
 
