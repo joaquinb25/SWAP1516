@@ -99,4 +99,6 @@ tiene por objetivo conseguir un gran rendimiento al tiempo que resuelve las nece
 
 **Fuentes:**
 
-http://elpuig.xeill.net/Members/vcarceler/c1/didactica/apuntes/ud4/na6
+https://www.dte.us.es/cursos/linux-admin/unidades/unidad_10_sist_arch_red.pdf
+http://web.mit.edu/rhel-doc/4/RH-DOCS/rhel-rg-es-4/ch-nfs.html
+https://es.wikipedia.org/wiki/Sistema_de_archivos
