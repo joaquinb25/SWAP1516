@@ -1,0 +1,18 @@
+
++<pregunta>
+ +  <enunciado>¿ Que es RAID?</enunciado>
+ +  <opcionA>RAID (conjunto redundante de discos independientes) esun sistema de almacenamiento que usa múltiples discos duros entre los que se distribuyen o replican los datos. </opcionA>
+ +  <opcionB>Es un tipo de dispositivo de almacenamiento de datos que utiliza memoria no volátil, como la memoria flash, para almacenar datos, en lugar de los platos o discos magnéticos de las unidades de discos duros (HDD) convencionales.</opcionB>
+ +  <opcionC>Control del tráfico de red a nivel de protocolo de red(TCP o UDP)  es el dispositivo de almacenamiento de datos que emplea un sistema de grabación magnética para almacenar archivos digitales.</opcionC>
+ +  <opcionD>Ninguna de las anteriores</opcionD>
+ +  <solucion>A</solucion>
+ +</pregunta>
+ +
+ +<pregunta>
+ +  <enunciado>El RAID 1 : </enunciado>
+ +  <opcionA>Usa división a nivel de bloques con un disco de paridad dedicado. Necesita un mínimo de 3 discos físicos. </opcionA>
+ +  <opcionB>Divide los datos a nivel de bloques, distribuyendo la información de paridad entre los discos del conjunto.</opcionB>
+ +  <opcionC>Usa división a nivel de bits.</opcionC>
+ +  <opcionD>Crea una copia exacta (o espejo) de un conjunto de datos en dos o más discos.</opcionD>
+ +  <solucion>D</solucion>
+ +</pregunta>
