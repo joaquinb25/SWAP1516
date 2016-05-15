@@ -8,10 +8,9 @@ Los resultados en VMWare han sido los siguientes:
 
 Comando ejecutado: ab -n 1000 -c 10 http://IPmaquina/prueba.html El archivo prueba.html es un archivo creado en /var/www.
 
-
-![M1](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica4/img/tests%20becnhmark/haproxybench.png)
-![M1](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica4/img/tests%20becnhmark/nginxbench.png)
 ![M1](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica4/img/tests%20becnhmark/servidor1bench.png)
+![M1](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica4/img/tests%20becnhmark/nginxbench.png)
+![M1](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica4/img/tests%20becnhmark/haproxybench.png)
 
 
 ![M1](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica4/img/graficas%20benchmark/grafica1.jpg)
