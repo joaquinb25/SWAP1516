@@ -18,8 +18,8 @@ Comando ejecutado: ab -n 1000 -c 10 http://IPmaquina/prueba.html El archivo prue
 ![M1](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica4/img/graficas%20benchmark/grafica2.jpg)
 ![M1](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica4/img/graficas%20benchmark/grafica3.jpg)
 ![M1](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica4/img/graficas%20benchmark/grafica4.png)
-![M1](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica4/img/graficas%20benchmark/grafica5.ppg)
-![M1](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica4/img/graficas%20benchmark/grafica6.ppg)
+![M1](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica4/img/graficas%20benchmark/grafica5.png)
+![M1](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica4/img/graficas%20benchmark/grafica6.png)
 
 
 ##Siege
