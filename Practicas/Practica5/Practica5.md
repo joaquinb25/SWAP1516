@@ -90,5 +90,5 @@ Por último, volvemos al maestro y volvemos a activar las tablas para que puedan
 Para comprobar que todo funciona, debemos ir al maestro e introducir nuevos datos a la base de datos. A continuación vamos al esclavo para revisar si la modificación se ha reflejado en la tabla modificada en el maestro:
 
 
-![servidor1]servidor1   (https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica5/IMG/5.png)
-![servidor2]servidor2   (https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica5/IMG/6.png)
+![servidor1](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica5/IMG/5.png)
+![servidor2](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica5/IMG/6.png)
