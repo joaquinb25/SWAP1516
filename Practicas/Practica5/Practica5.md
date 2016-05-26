@@ -92,5 +92,6 @@ SERVIDOR1:
 ![servidor1](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica5/IMG/5.png)
 
 
-SERVIDOR2:
+SERVIDOR2
+
 ![servidor2](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica5/IMG/6.png)
