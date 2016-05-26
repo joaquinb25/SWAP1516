@@ -42,11 +42,8 @@ mysql> quit
 
 ![M1](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica5/IMG/1.png)
 
+##Replicar una BD MySQL con mysqldump
 
-
-
-
-Replicar una BD MySQL con mysqldump
 Vamos a guardar los datos que tenemos en la BD que acabamos de crear en la máquina 1 con mysqldump. Para ello, vamos primero a bloquear las tablas, ya que antes de hacer la copia de seguridad debemos impedir que la BD se modifique. Después ejecutamos la orden mysqldump contactos -u root -p > /root/contactos.sql, que nos pedirá la contraseña de la mysql, y una vez hecho esto, tendremos los datos copiados.
  Ahora podemos volver a entrar en la BD y desbloquear las tablas.
 
@@ -68,7 +65,8 @@ Ahora es necesario que creemos la base de datos que hemos creado en la máquina 
 ![](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica5/IMG/4.png)
 
 
-Replicación de BD mediante una configuración maestro-esclavo
+ ##Replicación de BD mediante una configuración maestro-esclavo
+ 
 Vamos a automatizar el proceso anterior con una configuración maestro-esclavo. Para ello, debemos partir de tener clonadas ambas bases de datos en las dos máquinas. Comenzamos editando el archivo /etc/mysql/my.cnf y comentamos el parámetro #bind-address 127.0.0.1 y establecemos el identificador del servidor a 1, modificamos las variables log_error y log_bin.
 
 Reiniciamos mysql con /etc/init.d/mysql restart y modificamos el mismo archivo en la máquina 2 con las mismas modificaciones excepto el id del servidor, que ponemos a 2, y reiniciamos el servicio también.
@@ -89,6 +87,10 @@ Por último, volvemos al maestro y volvemos a activar las tablas para que puedan
 
 Para comprobar que todo funciona, debemos ir al maestro e introducir nuevos datos a la base de datos. A continuación vamos al esclavo para revisar si la modificación se ha reflejado en la tabla modificada en el maestro:
 
+SERVIDOR1:
 
 ![servidor1](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica5/IMG/5.png)
+
+
+SERVIDOR2:
 ![servidor2](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica5/IMG/6.png)
