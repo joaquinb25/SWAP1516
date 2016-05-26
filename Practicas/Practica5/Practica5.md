@@ -1,4 +1,4 @@
-*Carlos Toledano Delgado - Joaquín Ballesteros Ortega*
+**Carlos Toledano Delgado - Joaquín Ballesteros Ortega**
 
 #Práctica 5. Replicación de bases de datos MySQL
 
@@ -50,13 +50,13 @@ Replicar una BD MySQL con mysqldump
 Vamos a guardar los datos que tenemos en la BD que acabamos de crear en la máquina 1 con mysqldump. Para ello, vamos primero a bloquear las tablas, ya que antes de hacer la copia de seguridad debemos impedir que la BD se modifique. Después ejecutamos la orden mysqldump contactos -u root -p > /root/contactos.sql, que nos pedirá la contraseña de la mysql, y una vez hecho esto, tendremos los datos copiados.
  Ahora podemos volver a entrar en la BD y desbloquear las tablas.
 
-(https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica5/IMG/2.png)
+![](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica5/IMG/2.png)
 
 
 Vamos a la máquina 2 y guardamos los datos que acabamos de copiar 
 (poniendo la IP de la máquina 1):
 
-(https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica5/IMG/3.png)
+![](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica5/IMG/3.png)
 
 
 
@@ -65,7 +65,7 @@ Ahora es necesario que creemos la base de datos que hemos creado en la máquina 
  para poder copiar los datos en la BD de la máquina 2. Entramos entonces en mysql y
  una vez tengamos la BD creada ejecutamos mysql -uroot -p contactos < /root/contactos.sql
 
-(https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica5/IMG/4.png)
+![](https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica5/IMG/4.png)
 
 
 Replicación de BD mediante una configuración maestro-esclavo
@@ -90,5 +90,5 @@ Por último, volvemos al maestro y volvemos a activar las tablas para que puedan
 Para comprobar que todo funciona, debemos ir al maestro e introducir nuevos datos a la base de datos. A continuación vamos al esclavo para revisar si la modificación se ha reflejado en la tabla modificada en el maestro:
 
 
-servidor1   (https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica5/IMG/5.png)
-servidor2   (https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica5/IMG/6.png)
+![servidor1]servidor1   (https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica5/IMG/5.png)
+![servidor2]servidor2   (https://github.com/joaquinb25/SWAP1516/blob/master/Practicas/Practica5/IMG/6.png)
