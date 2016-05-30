@@ -29,8 +29,7 @@ Para comprobar qué servicios están activos y a la escucha en nuestro sistema L
 
 
 
-###*Buscar información acerca de los tipos de ataques más comunes en servidores web,
- en qué consisten, y cómo se pueden evitar.*
+###*Buscar información acerca de los tipos de ataques más comunes en servidores web,en qué consisten, y cómo se pueden evitar.*
 
 #####Ataques mas comunes:
 
