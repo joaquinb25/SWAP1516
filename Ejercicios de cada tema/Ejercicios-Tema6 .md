@@ -49,10 +49,7 @@ pero se pueden dirigir a cualquier dispositivo o servicio conectado.
 
 #####Metodos de defensa:
 
-	Se debe revisar la configuración de Routers y Firewalls para detener  IPs inválidas así como 
-también el filtrado de protocolos que no sean necesarios. Algunos firewalls y routers proveen la opción
- de prevenir inundaciones (floods) en los protocolos TCP/UDP. Además es aconsejable habilitar la opción 
-de logging (logs) para llevar un control adecuado de las conexiones que existen con dichos routers.
+Se debe revisar la configuración de Routers y Firewalls para detener  IPs inválidas así como también el filtrado de protocolos que no sean necesarios. Algunos firewalls y routers proveen la opción de prevenir inundaciones (floods) en los protocolos TCP/UDP. Además es aconsejable habilitar la opción de logging (logs) para llevar un control adecuado de las conexiones que existen con dichos routers.
 
 
 Cómo medida de respuesta es muy importante contar con un plan de respuesta a incidentes. Si ocurre algún hecho de este tipo, cada persona dentro de la organización debería saber cuál es su función específica.
