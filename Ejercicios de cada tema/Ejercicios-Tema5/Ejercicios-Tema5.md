@@ -14,7 +14,7 @@ Podemos saber en un momento dado cuantas peticiones esta sirviendo apache ejecut
 
 Para usarlo, podemos correrlo sin parámetros, y obtendremos algo similar a esto:
 
-![vmstat](https://github.com/joaquinb25/SWAP1516/blob/master/Ejercicios%20de%20cada%20tema/Ejercicios-Tema7/vmstat.jpg)
+![vmstat](https://github.com/joaquinb25/SWAP1516/blob/master/Ejercicios%20de%20cada%20tema/Ejercicios-Tema5/vmstat.jpg)
 
 La primera línea es simple, se divide en seis categorías: procesos, memoria, swap, E/S, sistema y CPU.
 La segunda un detalle abierto de cada categoria superior.
