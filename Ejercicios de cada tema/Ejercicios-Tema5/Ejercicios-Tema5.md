@@ -1,32 +1,32 @@
-#EJERCICIOS TEMA 2
+#EJERCICIOS TEMA 5
 
 ##Nombre : Joaquin Ballesteros Ortega
 
-###Ejercicio 5.1: Buscar informaciÛn sobre cÛmo calcular el n˙mero de conexiones por segundo.
+###Ejercicio 5.1: Buscar informaci√≥n sobre c√≥mo calcular el n√∫mero de conexiones por segundo.
 
 Podemos saber en un momento dado cuantas peticiones esta sirviendo apache ejecutando:
 
 *apache2ctl status |grep request*
 
-###Ejercicio 5.3: Buscar informaciÛn sobre herramientas para monitorizar las prestaciones de un servidor.
+###Ejercicio 5.3: Buscar informaci√≥n sobre herramientas para monitorizar las prestaciones de un servidor.
 
 **Vmstat** es un comando que nos permite obtener un detalle general de los procesos, E/S, uso de memoria/swap, estado del sistema y actividad del CPU. Es esencial para entender que esta pasando en tu sistema, detectar cuellos de botella, etc..
 
-Para usarlo, podemos correrlo sin par·metros, y obtendremos algo similar a esto:
+Para usarlo, podemos correrlo sin par√°metros, y obtendremos algo similar a esto:
 
 ![vmstat](https://github.com/joaquinb25/SWAP1516/blob/master/Ejercicios%20de%20cada%20tema/Ejercicios-Tema7/vmstat.jpg)
 
-La primera lÌnea es simple, se divide en seis categorÌas: procesos, memoria, swap, E/S, sistema y CPU.
+La primera l√≠nea es simple, se divide en seis categor√≠as: procesos, memoria, swap, E/S, sistema y CPU.
 La segunda un detalle abierto de cada categoria superior.
 
 
-**Netstat** muestra  conexiones  de  red,  tablas  de  encaminamiento,estadÌsticas de interfaces, 
+**Netstat** muestra  conexiones  de  red,  tablas  de  encaminamiento,estad√≠sticas de interfaces, 
 conexiones enmascaradas y mensajes del tipo netlink.
 
 
-Con top podemos tener una vista din·mica de un sistema en funcionamiento. 
+Con top podemos tener una vista din√°mica de un sistema en funcionamiento. 
 Puede mostrar un resumen y una lista de procesos manejados por el kernel Linux. 
-Tiene una limitada interfaz interactiva y una interfaz m·s amplia para la configuraciÛn personal.
+Tiene una limitada interfaz interactiva y una interfaz m√°s amplia para la configuraci√≥n personal.
 
 ###FUENTES
 
